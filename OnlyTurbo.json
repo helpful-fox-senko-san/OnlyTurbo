@@ -1,0 +1,10 @@
+{
+  "Author": "a cat",
+  "Name": "OnlyTurbo",
+  "Punchline": "Turbo hotbar buttons.",
+  "Description": "Turbo horbar buttons only. Conflicts with and copied from ReAction by UnknownX7.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "hotbar"
+  ]
+}
