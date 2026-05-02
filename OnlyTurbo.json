@@ -6,6 +6,5 @@
   "ApplicableVersion": "any",
   "Tags": [
     "hotbar"
-  ],
-  "DalamudApiLevel": 15
+  ]
 }
