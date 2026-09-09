@@ -69,6 +69,10 @@ public unsafe sealed class Plugin : IDalamudPlugin
 
     private bool IsInputIdPressedDetour(nint inputData, uint id)
     {
+        // Patch 7.56: Calling Original for this hotbar is causing problems with the pet hotbar for some reason
+        if (id == 447)
+            return false;
+
         if (isInputIdDown == null || id < FirstHotbarId || id > LastHotbarId)
             return IsInputIdPressedHook!.Original(inputData, id);
 
